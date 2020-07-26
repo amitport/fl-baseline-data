@@ -19,7 +19,8 @@ setup(name='fl-baseline-data',
       zip_safe=True,
       install_requires=[
           'tensorflow>=2',
-          'tensorflow-datasets>=3'
+          'tensorflow-datasets>=3',
+          'matplotlib',
       ],
       python_requires='>=3.6',
       )
